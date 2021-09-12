@@ -49,10 +49,6 @@ async def start(bot: Client, cmd: Message):
                     [
                         InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/joinchat/GZ0yLAPeD25lYWQ1"),
                         InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ɢʀᴜᴘ", url="https://t.me/joinchat/HwxSD2aHHHU0OWU1")
-                    ],
-                    [
-                        InlineKeyboardButton("ᴀʙᴏᴜᴛ ʙᴏᴛ", callback_data="aboutbot"),
-                        InlineKeyboardButton("ᴀʙᴏᴜᴛ ᴅᴇᴠ", callback_data="aboutdevs")
                     ]
                 ]
             )
