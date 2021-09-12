@@ -31,7 +31,7 @@ Kirim saya file apa pun, saya akan memberi Anda link yang Dapat Dibagikan secara
 
 🧑🏻‍💻 **Developer:** @AbirHasan2005
 
-👥 **Support Group:** [Linux Repositories](https://t.me/DevsZone)
+👥 **Support Grup:** [Linux Repositories](https://t.me/DevsZone)
 
 📢 **Updates Channel:** [Discovery Projects](https://t.me/Discovery_Updates)
 """
@@ -42,8 +42,8 @@ Developer is Super Noob. Just Learning from Official Docs. Please Donate the dev
 
 Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things.
 
-[Donate Now](https://www.paypal.me/AbirHasan2005) (PayPal)
+[Donate Now](https://www.paypal.com) (PayPal)
 """
 	HOME_TEXT = """
-Hello, [{}](tg://user?id={}) Kirimi saya file apa pun, saya akan memberi Anda link yang Dapat Dibagikan secara permanen. Saya Mendukung channel Juga! Periksa Tentang Tombol Bot.
+Hello! [{}](tg://user?id={}) Saya dapat membantu Anda untuk menyimpan file Anda dan memberi Anda tautan permanen yang dapat dibagikan. Anda dapat menggunakan saya di channel juga 😉.
 """
