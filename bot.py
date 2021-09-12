@@ -91,10 +91,10 @@ async def main(bot: Client, message: Message):
         if Config.OTHER_USERS_CAN_SAVE_FILE is False:
             return
         await message.reply_text(
-            text="**Choose an option from below:**",
+            text="**Pilih opsi dibawah ini :**",
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("Save in Batch", callback_data="addToBatchTrue")],
-                [InlineKeyboardButton("Get Sharable Link", callback_data="addToBatchFalse")]
+                [InlineKeyboardButton("📦 sᴀᴠᴇ ɪɴ ʙᴀᴛᴄʜ", callback_data="addToBatchTrue")],
+                [InlineKeyboardButton("🔗 ɢᴇᴛ sʜᴀʀᴀʙʟᴇ ʟɪɴᴋ", callback_data="addToBatchFalse")]
             ]),
             quote=True,
             disable_web_page_preview=True
