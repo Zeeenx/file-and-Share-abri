@@ -47,12 +47,12 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/joinchat/GZ0yLAPeD25lYWQ1"),
+                        InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ɢʀᴜᴘ", url="https://t.me/joinchat/HwxSD2aHHHU0OWU1")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("ᴀʙᴏᴜᴛ ʙᴏᴛ", callback_data="aboutbot"),
+                        InlineKeyboardButton("ᴀʙᴏᴜᴛ ᴅᴇᴠ", callback_data="aboutdevs")
                     ]
                 ]
             )
