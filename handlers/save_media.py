@@ -89,7 +89,7 @@ async def SaveMediaInChannel(bot: Client, editable: Message, message: Message):
         share_link = f"https://t.me/{Config.BOT_USERNAME}?start=duniamovie_{str_to_b64(file_er_id)}"
         await editable.edit(
             f"File Anda Tersimpan di Database saya!!\n\nLink: {share_link} \n\n"
-            
+            f"Just Click the link to get your file!",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("ᴏᴘᴇɴ ʟɪɴᴋ", url=share_link)],
