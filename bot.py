@@ -47,8 +47,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/joinchat/GZ0yLAPeD25lYWQ1"),
-                        InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ɢʀᴜᴘ", url="https://t.me/joinchat/HwxSD2aHHHU0OWU1")
+                        InlineKeyboardButton("🔑 ᴄʜᴀɴɴᴇʟ", url="https://t.me/joinchat/GZ0yLAPeD25lYWQ1"),
+                        InlineKeyboardButton("😊 sᴜᴘᴘᴏʀᴛ ɢʀᴜᴘ", url="https://t.me/joinchat/HwxSD2aHHHU0OWU1")
                     ]
                 ]
             )
