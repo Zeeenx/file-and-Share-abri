@@ -29,15 +29,15 @@ async def handle_force_sub(bot: Client, cmd: Message):
             return 200
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**\n\n"
-                 "Due to Overload, Only Channel Subscribers can use the Bot!",
+            text="Anda belum bergabung ☹️, silakan bergabung di channel kami. untuk menggunakan bot ini!\n\n"
+                 "Karena Overload, hanya pelanggan duniamovie  yang dapat menggunakan bot !‌‌",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                        InlineKeyboardButton("🔑 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ,", url=invite_link.invite_link)
                     ],
                     [
-                        InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshForceSub")
+                        InlineKeyboardButton("⚡️ ʀᴇғʀᴇsʜ", callback_data="refreshForceSub")
                     ]
                 ]
             ),
