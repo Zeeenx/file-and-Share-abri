@@ -91,7 +91,7 @@ async def main(bot: Client, message: Message):
         if Config.OTHER_USERS_CAN_SAVE_FILE is False:
             return
         await message.reply_text(
-            text="**Pilih opsi dibawah ini :**",
+            text="ᴘɪʟɪʜ ᴏᴘsɪ ᴅɪʙᴀᴡᴀʜ ɪɴɪ:",
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("📦 sᴀᴠᴇ ɪɴ ʙᴀᴛᴄʜ", callback_data="addToBatchTrue")],
                 [InlineKeyboardButton("🔗 ɢᴇᴛ sʜᴀʀᴀʙʟᴇ ʟɪɴᴋ", callback_data="addToBatchFalse")]
@@ -399,11 +399,11 @@ async def button(bot: Client, cmd: CallbackQuery):
             MediaList[f"{str(cmd.from_user.id)}"] = []
         file_id = cmd.message.reply_to_message.message_id
         MediaList[f"{str(cmd.from_user.id)}"].append(file_id)
-        await cmd.message.edit("File Saved in Batch!\n\n"
-                               "Press below button to get batch link.",
+        await cmd.message.edit("ғɪʟᴇ ᴅɪsɪᴍᴘᴀɴ ᴅᴀʟᴀᴍ ʙᴀᴛᴄʜ ✅\n",
+                               
                                reply_markup=InlineKeyboardMarkup([
-                                   [InlineKeyboardButton("Get Batch Link", callback_data="getBatchLink")],
-                                   [InlineKeyboardButton("Close Message", callback_data="closeMessage")]
+                                   [InlineKeyboardButton("⚡️ ᴅᴀᴘᴀᴛᴋᴀɴ ᴛᴀᴜᴛᴀɴ ʙᴀᴛᴄʜ‌‌", callback_data="getBatchLink")],
+                                   [InlineKeyboardButton("❌ ᴛᴜᴛᴜᴘ", callback_data="closeMessage")]
                                ]))
 
     elif "addToBatchFalse" in cb_data:
