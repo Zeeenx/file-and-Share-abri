@@ -11,7 +11,7 @@ from handlers.helpers import str_to_b64
 async def ReplyForward(message: Message, file_id: int):
     try:
         await message.reply_text(
-            f"link yang Dapat di bagikan:\n"
+            f"link yang dapat di bagikan:\n\n"
             f"https://t.me/{Config.BOT_USERNAME}?start=duniamovie_{str_to_b64(str(file_id))}\n\n",
             
             disable_web_page_preview=True, quote=True)
