@@ -88,13 +88,13 @@ async def SaveMediaInChannel(bot: Client, editable: Message, message: Message):
             parse_mode="Markdown", disable_web_page_preview=True)
         share_link = f"https://t.me/{Config.BOT_USERNAME}?start=duniamovie_{str_to_b64(file_er_id)}"
         await editable.edit(
-            f"File Anda Tersimpan di Database saya!!\n\nLink: {share_link} \n\n"
-            f"Just Click the link to get your file!",
+            f"File Anda tersimpan di database 📦\n\n {share_link} \n\n",
+            
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("ᴏᴘᴇɴ ʟɪɴᴋ", url=share_link)],
-                 [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/joinchat/GZ0yLAPeD25lYWQ1"),
-                  InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/joinchat/HwxSD2aHHHU0OWU1")]]
+                [[InlineKeyboardButton("🔗 ᴏᴘᴇɴ ʟɪɴᴋ", url=share_link)],
+                 [InlineKeyboardButton("😃 ᴄʜᴀɴɴᴇʟ", url="https://t.me/joinchat/GZ0yLAPeD25lYWQ1"),
+                  InlineKeyboardButton("❤️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/joinchat/HwxSD2aHHHU0OWU1")]]
             ),
             disable_web_page_preview=True
         )
