@@ -46,15 +46,15 @@ async def SaveBatchMediaInChannel(bot: Client, editable: Message, message_ids: l
                 InlineKeyboardButton("Delete Batch", callback_data="closeMessage")
             ]])
         )
-        share_link = f"https://t.me/{Config.BOT_USERNAME}?start=AbirHasan2005_{str_to_b64(str(SaveMessage.message_id))}"
+        share_link = f"https://t.me/{Config.BOT_USERNAME}?start=duniamovie_{str_to_b64(str(SaveMessage.message_id))}"
         await editable.edit(
-            f"**Batch Files Stored in my Database!**\n\nHere is the Permanent Link of your files: {share_link} \n\n"
-            f"Just Click the link to get your files!",
+            f"File batch Disimpan di database saya\n\nlink: {share_link} \n\n",
+            
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates"),
-                  InlineKeyboardButton("Support Group", url="https://t.me/DevsZone")]]
+                [[InlineKeyboardButton("🔗 ᴏᴘᴇɴ ʟɪɴᴋ", url=share_link)],
+                 [InlineKeyboardButton("😊 ᴄʜᴀɴɴᴇʟ", url="https://t.me/joinchat/GZ0yLAPeD25lYWQ1"),
+                  InlineKeyboardButton("❤️ sᴜᴘᴘᴏʀᴛ ɢʀᴜᴘ", url="https://t.me/joinchat/HwxSD2aHHHU0OWU1")]]
             ),
             disable_web_page_preview=True
         )
