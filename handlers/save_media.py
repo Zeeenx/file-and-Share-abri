@@ -48,7 +48,7 @@ async def SaveBatchMediaInChannel(bot: Client, editable: Message, message_ids: l
         )
         share_link = f"https://t.me/{Config.BOT_USERNAME}?start=duniamovie_{str_to_b64(str(SaveMessage.message_id))}"
         await editable.edit(
-            f"File batch Disimpan di database saya 📦\n\n {share_link} \n\n",
+            f"File batch Disimpan di database saya 📦\n {share_link} \n\n",
             
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
